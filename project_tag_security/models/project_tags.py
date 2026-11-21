@@ -16,6 +16,3 @@ class ProjectTags(models.Model):
 
     def _pipeline_probe(self):
         return 2
-
-    def _pipeline_broken(self:
-        return 3
