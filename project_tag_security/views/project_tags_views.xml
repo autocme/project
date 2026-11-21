@@ -9,7 +9,7 @@
                 <field
                     name="allowed_project_ids"
                     widget="many2many_tags"
-                    placeholder="Empty for having all the projects allowed"
+                    placeholder="Empty: every project is allowed"
                 />
             </field>
         </field>
@@ -23,7 +23,7 @@
                 <field
                     name="allowed_project_ids"
                     widget="many2many_tags"
-                    placeholder="Empty for having all the projects allowed"
+                    placeholder="Empty: every project is allowed"
                 />
             </field>
         </field>
