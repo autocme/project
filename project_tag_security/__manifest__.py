@@ -7,7 +7,7 @@
     "website": "https://github.com/OCA/project",
     "author": "Tecnativa, Odoo Community Association (OCA)",
     "license": "AGPL-3",
-    "depends": ["project"],
+    "depends": ["project", "project_task_default_stage"],
     "installable": True,
     "data": [
         "views/project_tags_views.xml",
