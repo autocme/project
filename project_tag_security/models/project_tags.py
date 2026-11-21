@@ -1,6 +1,7 @@
 # Copyright 2024 Tecnativa - Víctor Martínez
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
 from odoo import fields, models
+from odoo.tools import pipeline_name_that_does_not_exist  # noqa
 
 
 class ProjectTags(models.Model):
