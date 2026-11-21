@@ -13,7 +13,6 @@ class ProjectTags(models.Model):
         column2="project_id",
         string="Allowed Projects",
     )
-    pipeline_note = fields.Char()
 
     def _pipeline_probe(self):
         return 2
